@@ -7,7 +7,7 @@ The service provider will configure an instance of Airbrake\Notifier with an ID,
 ## Install
 Require this package via composer.
 ```
-composer require kouz/laravel-airbrake
+composer require serbannasui/laravel-airbrake
 ```
 For Laravel >=5.5 the package will be discoverd. For Laravel <=5.4 add package to list of service providers in config/app.php
 ```
