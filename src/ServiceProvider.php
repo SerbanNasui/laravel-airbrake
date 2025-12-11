@@ -26,7 +26,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('Airbrake\Notifier', function ($app) {
+        $this->app->singleton(Notifier::class, function ($app) {
             $handler = new AirbrakeHandler($app);
 
             return $handler->handle();
